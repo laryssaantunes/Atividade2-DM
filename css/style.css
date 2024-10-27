@@ -1,3 +1,46 @@
-.laryssa{
-    text-align: center;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body.fullscreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+nav {
+    background-color: #ffccf2; /* Tom suave de rosa */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ffd6e7;
+    color: #222;
 }
