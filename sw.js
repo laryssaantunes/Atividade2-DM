@@ -1,6 +1,6 @@
-let cacheName = "meus-horarios-de-aulas";
+let cacheName = "meus-horarios";
 let filesToCache = ["/", "index.html",
-                    "css/style.css", "/js/main.js", "/pages/pagina.html", "/pages/pagina", "/manifest.json", "aula.html", "pe.html",];
+                    "css/style.css", "/js/main.js", "/aula.html", "/pe.html",];
 /* inicializando a service worker e fazendo o dowloand do conteudo da aplicação */
 self.addEventListener("install", (e) => {
     e.waitUntil(

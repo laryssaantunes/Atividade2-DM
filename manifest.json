@@ -1,6 +1,6 @@
 {
     "name": "Meus horarios",
-    "short_name": "meus-horarios-de-aulas",
+    "short_name": "Horarios de aulas",
     "icons": [
         {
             "src": "images/pwa-icon-192.png",
