@@ -1,6 +1,6 @@
-let cacheName = "my-first-pwa";
+let cacheName = "meus-horarios-de-aulas";
 let filesToCache = ["/", "index.html",
-                    "css/style.css", "/js/main.js"];
+                    "css/style.css", "/js/main.js", "/pages/pagina.html", "/pages/pagina", "/manifest.json", "aula.html", "pe.html",];
 /* inicializando a service worker e fazendo o dowloand do conteudo da aplicação */
 self.addEventListener("install", (e) => {
     e.waitUntil(
