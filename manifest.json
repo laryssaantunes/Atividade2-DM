@@ -3,12 +3,12 @@
     "short_name": "Horarios de aulas",
     "icons": [
         {
-            "src": "images/icon-256x256.png",
+            "src": "images/imagem-icon-256x256.png",
             "sizes": "256x256",
             "type": "image/png"
         },
         {
-            "src": "images/images (1).png",
+            "src": "images/imagem-icon-512x512.png",
             "type": "image/png"
         }
     ],
